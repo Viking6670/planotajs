@@ -1,0 +1,31 @@
+{
+  "name": "planotajs",
+  "version": "1.0.0",
+  "description": "Uzdevumu un piezīmju pārvaldības sistēma ar tīmekļa lietojumprogrammu un Telegram botu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npx vite build",
+    "prebuild": "npm install vite @vitejs/plugin-react",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "@vitejs/plugin-react": "^4.3.2",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-toastify": "^10.0.6",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
