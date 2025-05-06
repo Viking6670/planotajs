@@ -1,0 +1,23 @@
+# .render.yaml
+services:
+  - type: web
+    name: planotajs
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: SUPABASE_URL
+        value: https://zecdlghlnroqkrophghd.supabase.co
+      - key: SUPABASE_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplY2RsZ2hsbnJvcWtyb3BoZ2hkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQwOTk5NzQsImV4cCI6MjA1OTY3NTk3NH0.iKAOCgr9nljU5Mq7kYRj56Ui6gqvoZPRR0BU_9-LK-c
+      - key: TELEGRAM_BOT_TOKEN
+        value: 7917473400:AAHmf7rikOC0V4pRiSVNEbE39CfymYwehfQ
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        value: 1312Acab
+      - key: RENDER_URL
+        value: https://planotajs.onrender.com
