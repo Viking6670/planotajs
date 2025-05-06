@@ -1,0 +1,29 @@
+/* src/styles/global.css */
+:root {
+  --background: #f9fafb;
+  --text: #1f2937;
+  --primary: #10b981;
+  --primary-dark: #059669;
+  --error: #f87171;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.Toastify__toast {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  border-radius: 6px;
+}
+
+.Toastify__toast--success {
+  background: var(--primary);
+}
+
+.Toastify__toast--error {
+  background: var(--error);
+}
