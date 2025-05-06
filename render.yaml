@@ -4,6 +4,7 @@ services:
     name: planotajs
     env: node
     plan: free
+    rootDir: planotajs
     buildCommand: npm run build
     startCommand: npm start
     envVars:
