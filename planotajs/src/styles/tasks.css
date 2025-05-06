@@ -1,0 +1,16 @@
+/* src/styles/tasks.css */
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.tasks-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tasks-container p {
+  font-size: 1rem;
+}

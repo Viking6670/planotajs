@@ -1,1 +1,1 @@
-# planotajs
+git commit -m "Izveidoti API maršruti autentifikācijai un ierīces atcerēšanai"
